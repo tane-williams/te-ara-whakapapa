@@ -17,9 +17,45 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Te Ara Whakapapa ki te Whenua | Māori Land Governance Education",
+  metadataBase: new URL("https://tearawhakapapa.com"),
+  title:
+    "Te Ara Whakapapa ki te Whenua | Māori Land Ownership Literacy Initiative",
   description:
-    "A 12-month learning journey for whānau with Māori land interests. Build your understanding of Māori land ownership, whakapapa, succession and governance in a supportive learning environment.",
+    "A free 12-month learning journey for whānau with Māori land interests. Build your understanding of whakapapa, land ownership, succession and governance. Delivered by Te Ahi Kaa.",
+  keywords: [
+    "Te Ara Whakapapa",
+    "Te Ara Whakapapa ki te Whenua",
+    "Māori land governance",
+    "whakapapa",
+    "whenua",
+    "Māori land trust",
+    "Te Ahi Kaa",
+    "Māori land ownership literacy",
+  ],
+  openGraph: {
+    title: "Te Ara Whakapapa ki te Whenua",
+    description:
+      "A free 12-month learning journey for whānau with Māori land interests, delivered by Te Ahi Kaa.",
+    url: "https://tearawhakapapa.com",
+    siteName: "Te Ara Whakapapa",
+    images: [{ url: "/logo.png", width: 1200, height: 1200 }],
+    locale: "en_NZ",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Te Ara Whakapapa ki te Whenua",
+    description:
+      "A free 12-month learning journey for whānau with Māori land interests.",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://tearawhakapapa.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
