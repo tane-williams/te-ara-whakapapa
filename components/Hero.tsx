@@ -14,10 +14,10 @@ export default function Hero() {
 
       <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
         <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
-          <span className="rounded-full border border-border-soft bg-white/60 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+          <span className="rounded-full border border-border-soft bg-container/60 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-heading">
             Māori Land Governance Education
           </span>
-          <span className="rounded-full bg-accent px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-white">
+          <span className="rounded-full bg-accent px-4 py-1.5 font-sans text-xs font-bold uppercase tracking-[0.2em] text-white">
             Free of Charge
           </span>
         </div>
@@ -26,7 +26,7 @@ export default function Hero() {
           Te Ara Whakapapa ki te Whenua
         </h1>
 
-        <p className="mt-3 font-sans text-xs uppercase tracking-[0.2em] text-accent">
+        <p className="mt-3 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-heading">
           Delivered by Te Ahi Kaa
         </p>
 

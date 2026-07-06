@@ -24,7 +24,7 @@ export default function CourseModules() {
     <section id="modules" className="bg-container px-6 py-20 sm:py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-display text-4xl font-semibold text-heading sm:text-5xl">
+          <h2 className="font-display text-4xl font-bold text-heading sm:text-5xl">
             Course Modules
           </h2>
           <p className="mt-6 font-sans text-base leading-relaxed text-body sm:text-lg">
@@ -37,9 +37,13 @@ export default function CourseModules() {
           {modules.map((module, index) => (
             <li
               key={module.title}
-              className="relative flex flex-col rounded-2xl border border-border-faint bg-white p-6 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-md sm:p-7"
+              className="relative flex flex-col rounded-2xl border border-border-soft bg-container p-6 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-md sm:p-7"
             >
-              <span className="font-display text-4xl font-semibold text-accent-soft">
+              <span
+                className={`flex h-12 w-12 items-center justify-center rounded-full font-display text-lg font-bold text-white ${
+                  index % 2 === 0 ? "bg-heading" : "bg-accent"
+                }`}
+              >
                 {String(index + 1).padStart(2, "0")}
               </span>
               <h3 className="mt-4 font-display text-xl font-semibold leading-snug text-heading sm:text-2xl">
