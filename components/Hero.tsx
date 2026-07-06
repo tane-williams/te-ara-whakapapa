@@ -36,8 +36,14 @@ export default function Hero() {
           succession and governance in a supportive learning environment.
         </p>
 
-        <div className="mt-10">
+        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <EnrolButton />
+          <a
+            href="#tutorial"
+            className="inline-flex items-center justify-center rounded-full border border-heading bg-transparent px-8 py-4 font-sans text-base font-semibold text-heading transition-colors duration-200 hover:bg-container focus:outline-none focus-visible:ring-2 focus-visible:ring-heading focus-visible:ring-offset-2"
+          >
+            Watch Tutorial
+          </a>
         </div>
       </div>
     </section>
