@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tearawhakapapa.com"),
+  metadataBase: new URL("https://www.tearawhakapapa.com"),
   title:
     "Te Ara Whakapapa ki te Whenua | Māori Land Ownership Literacy Initiative",
   description:
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Te Ara Whakapapa ki te Whenua",
     description:
       "A free 12-month learning journey for whānau with Māori land interests, delivered by Te Ahi Kaa.",
-    url: "https://tearawhakapapa.com",
+    url: "https://www.tearawhakapapa.com",
     siteName: "Te Ara Whakapapa",
     images: [{ url: "/logo.png", width: 1200, height: 1200 }],
     locale: "en_NZ",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://tearawhakapapa.com",
+    canonical: "https://www.tearawhakapapa.com",
   },
   robots: {
     index: true,

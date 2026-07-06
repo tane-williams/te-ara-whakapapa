@@ -17,7 +17,7 @@ const courseJsonLd = {
   provider: {
     "@type": "Organization",
     name: "Te Ahi Kaa",
-    sameAs: "https://tearawhakapapa.com",
+    sameAs: "https://www.tearawhakapapa.com",
   },
   offers: {
     "@type": "Offer",

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tearawhakapapa.com/sitemap.xml",
+    sitemap: "https://www.tearawhakapapa.com/sitemap.xml",
   };
 }
