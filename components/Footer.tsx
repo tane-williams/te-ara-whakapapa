@@ -19,7 +19,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="inline-flex min-h-11 items-center font-sans text-xs text-accent-soft hover:underline"
         >
-          Erica Burke — Course Coordinator
+          Link to Facebook page
         </a>
       </div>
     </footer>
