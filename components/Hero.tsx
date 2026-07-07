@@ -12,17 +12,17 @@ export default function Hero() {
         className="pointer-events-none absolute -bottom-32 -left-24 h-72 w-72 rounded-full bg-accent-soft opacity-50 blur-3xl sm:h-96 sm:w-96"
       />
 
-      <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
-        <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
-          <span className="rounded-full border border-border-soft bg-container/60 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-heading">
+      <div className="relative mx-auto flex w-full max-w-3xl flex-col items-center text-center">
+        <div className="mb-6 flex flex-wrap items-center justify-center gap-2.5 px-2 sm:gap-3">
+          <span className="rounded-full border border-border-soft bg-container/60 px-3.5 py-1.5 font-sans text-[10px] font-semibold uppercase tracking-[0.12em] text-heading sm:px-4 sm:text-xs sm:tracking-[0.2em]">
             Māori Land Governance Education
           </span>
-          <span className="rounded-full bg-accent px-4 py-1.5 font-sans text-xs font-bold uppercase tracking-[0.2em] text-white">
+          <span className="rounded-full bg-accent px-3.5 py-1.5 font-sans text-[10px] font-bold uppercase tracking-[0.12em] text-white sm:px-4 sm:text-xs sm:tracking-[0.2em]">
             Free of Charge
           </span>
         </div>
 
-        <h1 className="font-display text-5xl font-semibold leading-tight text-heading sm:text-6xl md:text-7xl">
+        <h1 className="font-display text-4xl font-semibold leading-tight text-heading sm:text-6xl md:text-7xl">
           Te Ara Whakapapa ki te Whenua
         </h1>
 
@@ -36,11 +36,11 @@ export default function Hero() {
           succession and governance in a supportive learning environment.
         </p>
 
-        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <EnrolButton />
+        <div className="mt-10 flex w-full max-w-xs flex-col items-stretch gap-4 sm:max-w-none sm:w-auto sm:flex-row sm:justify-center">
+          <EnrolButton className="w-full sm:w-auto" />
           <a
             href="#tutorial"
-            className="inline-flex items-center justify-center rounded-full border border-heading bg-transparent px-8 py-4 font-sans text-base font-semibold text-heading transition-colors duration-200 hover:bg-container focus:outline-none focus-visible:ring-2 focus-visible:ring-heading focus-visible:ring-offset-2"
+            className="inline-flex w-full items-center justify-center rounded-full border border-heading bg-transparent px-8 py-4 font-sans text-base font-semibold text-heading transition-colors duration-200 hover:bg-container focus:outline-none focus-visible:ring-2 focus-visible:ring-heading focus-visible:ring-offset-2 sm:w-auto"
           >
             Watch Tutorial
           </a>

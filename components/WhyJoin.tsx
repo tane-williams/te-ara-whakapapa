@@ -70,7 +70,7 @@ const reasons = [
 
 export default function WhyJoin() {
   return (
-    <section id="why-join" className="scroll-mt-24 bg-container px-6 py-20 sm:py-28">
+    <section id="why-join" className="scroll-mt-24 bg-container px-6 py-14 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-5xl">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-4xl font-bold text-heading sm:text-5xl">

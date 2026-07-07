@@ -13,16 +13,14 @@ export default function Footer() {
         <p className="mt-2 font-sans text-xs text-container/80">
           &copy; {year} Te Ara Whakapapa ki te Whenua. All rights reserved.
         </p>
-        <p className="font-sans text-xs text-container/80">
-          <a
-            href="https://www.facebook.com/erica.burke.3133"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent-soft hover:underline"
-          >
-            Erica Burke — Course Coordinator
-          </a>
-        </p>
+        <a
+          href="https://www.facebook.com/erica.burke.3133"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex min-h-11 items-center font-sans text-xs text-accent-soft hover:underline"
+        >
+          Erica Burke — Course Coordinator
+        </a>
       </div>
     </footer>
   );
