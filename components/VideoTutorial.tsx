@@ -3,10 +3,9 @@ const VIDEO_URL =
 
 const requirements = [
   "At least 10 characters long",
-  "At least 1 uppercase letter",
-  "At least 1 lowercase letter",
-  "At least 1 number",
-  "Cannot include your username, first name, or last name",
+  "Include at least 1 Capital Letter",
+  "Include at least 1 number",
+  "Don't use your username, first name, or last name",
 ];
 
 function LockIcon() {
@@ -61,8 +60,7 @@ export default function VideoTutorial() {
             </h3>
           </div>
           <p className="mt-3 font-sans text-sm leading-relaxed text-body sm:text-base">
-            Many people get stuck here — follow these simple rules and
-            you&rsquo;ll be set up in seconds.
+            Follow these simple rules and you&rsquo;ll be set up in seconds.
           </p>
 
           <ul className="mt-5 grid gap-2.5 sm:grid-cols-2">
@@ -85,17 +83,13 @@ export default function VideoTutorial() {
               Easy Example
             </p>
             <p className="mt-2 font-sans text-sm leading-relaxed text-body sm:text-base">
-              A simple way to build a strong password: pick a short phrase
-              you&rsquo;ll remember and add a number — for example, combining
-              two unrelated words with a number works well (e.g.{" "}
+              For example:{" "}
               <span className="font-semibold text-heading">
-                &lsquo;Kereru42River&rsquo;
+                Kereru42River
               </span>{" "}
               or{" "}
-              <span className="font-semibold text-heading">
-                &lsquo;Whenua7Awa&rsquo;
-              </span>
-              ). Avoid using your own name, birthday, or common words alone.
+              <span className="font-semibold text-heading">Whenua7Awa</span> —
+              an easy word or two, plus a number, with one Capital Letter.
             </p>
           </div>
         </div>
